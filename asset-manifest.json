@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/siteforarturchik/static/css/main.e6c13ad2.css",
-    "main.js": "/siteforarturchik/static/js/main.1fde0c0b.js",
-    "static/media/prostitytki.jpg": "/siteforarturchik/static/media/prostitytki.e8b7a04043ffb30b26a2.jpg",
-    "static/media/battlenet.jpg": "/siteforarturchik/static/media/battlenet.f140222ff514d56e60ae.jpg",
-    "static/media/vareniki.jpg": "/siteforarturchik/static/media/vareniki.bff94ee99e36308ea90c.jpg",
-    "static/media/bebri.jpg": "/siteforarturchik/static/media/bebri.a8d97c3c67a01f704467.jpg",
-    "static/media/canabis.jpg": "/siteforarturchik/static/media/canabis.a0b5653918bc693d0894.jpg",
-    "static/media/pistols.jpg": "/siteforarturchik/static/media/pistols.ad60a3743fc944f50d51.jpg",
-    "static/media/bemj1.png": "/siteforarturchik/static/media/bemj1.068067acce2395f223cc.png",
-    "static/media/logo2.webp": "/siteforarturchik/static/media/logo2.30c1844ea02423e98bfc.webp",
-    "index.html": "/siteforarturchik/index.html",
-    "main.e6c13ad2.css.map": "/siteforarturchik/static/css/main.e6c13ad2.css.map",
-    "main.1fde0c0b.js.map": "/siteforarturchik/static/js/main.1fde0c0b.js.map"
+    "main.css": "/siteforartur/static/css/main.e6c13ad2.css",
+    "main.js": "/siteforartur/static/js/main.182172df.js",
+    "static/media/prostitytki.jpg": "/siteforartur/static/media/prostitytki.e8b7a04043ffb30b26a2.jpg",
+    "static/media/battlenet.jpg": "/siteforartur/static/media/battlenet.f140222ff514d56e60ae.jpg",
+    "static/media/vareniki.jpg": "/siteforartur/static/media/vareniki.bff94ee99e36308ea90c.jpg",
+    "static/media/bebri.jpg": "/siteforartur/static/media/bebri.a8d97c3c67a01f704467.jpg",
+    "static/media/canabis.jpg": "/siteforartur/static/media/canabis.a0b5653918bc693d0894.jpg",
+    "static/media/pistols.jpg": "/siteforartur/static/media/pistols.ad60a3743fc944f50d51.jpg",
+    "static/media/bemj1.png": "/siteforartur/static/media/bemj1.068067acce2395f223cc.png",
+    "static/media/logo2.webp": "/siteforartur/static/media/logo2.30c1844ea02423e98bfc.webp",
+    "index.html": "/siteforartur/index.html",
+    "main.e6c13ad2.css.map": "/siteforartur/static/css/main.e6c13ad2.css.map",
+    "main.182172df.js.map": "/siteforartur/static/js/main.182172df.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.1fde0c0b.js"
+    "static/js/main.182172df.js"
   ]
 }
