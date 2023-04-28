@@ -6,6 +6,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
  @media screen and (min-width: 1280px) {
+    padding-left:80px;
 display: flex;
  }
 `;
@@ -15,7 +16,8 @@ width:320px;
 width: 700px;
  }
  @media screen and (min-width: 1280px) {
-
+    width: 500px;
+    height: 100%;
  }
 `;
 
@@ -26,12 +28,22 @@ font-size: 28px;
     margin-bottom: 10px;
     word-spacing: 5px;
 `;
+export const Proffesion = styled.h2`
+text-align: center;
+color:red;
+`;
 export const H1 = styled.h1`
 display: inline-block;
-    font-size: 90px;
+font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+@media (min-width: 768px){
+   font-size: 90px;
     font-weight: 900;
     line-height: 85px;
     margin-bottom: 15px;
+  
+}
 `;
 export const ImageContainer = styled.div`
 width:320;
@@ -69,4 +81,10 @@ padding-left:40px;
     max-width: 1280px;  // максимальна ширина для вьюпорту 1280
 padding-left:40px;
   }
+`;
+export const PhoneContainer = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 `;

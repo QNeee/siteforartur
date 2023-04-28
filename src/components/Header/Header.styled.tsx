@@ -17,8 +17,13 @@ padding-left:40px;
 `;
 
 export const Img = styled.img`
-
+@media screen and (min-width: 1280px) {
+padding-top:40px;
+}
 `;
 export const A = styled.a`
 text-decoration: none;
+ @media screen and (min-width: 1280px) {
+padding-left: 80px;
+ }
 `;
