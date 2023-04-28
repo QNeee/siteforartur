@@ -52,10 +52,36 @@ const data: IData[] = [
 ]
 export const FooterApp = () => {
     const [change, setChange] = useState(0);
+    const [change1, setChange1] = useState(0);
+    let count = 0;
+    const interval = setInterval(() => {
+        count++;
+        if (count === 5) {
+            if (change < data.length - 1 && change1 === 0) {
+                setChange(prev => prev + 1);
+                clearInterval(interval);
+            }
+            if (change === data.length - 1) {
+                setChange1(data.length - 1);
+                clearInterval(interval);
+            }
+            if (change === 0 && change1 === data.length - 1) {
+                setChange1(0);
+                clearInterval(interval);
+            }
+            if (change > 0 && change1 > 0) {
+                setChange(prev => prev - 1);
+                clearInterval(interval);
+            }
+        }
+    }, 1000)
+
     const onClickNext = () => {
+        clearInterval(interval);
         setChange(prev => prev + 1)
     }
     const onClickPrev = () => {
+        clearInterval(interval);
         setChange(prev => prev - 1)
     }
     return <Footer>
