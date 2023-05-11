@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 export const Footer = styled.footer`
-height: 300px;
+height: 100vh;
 background-color: black;
 display: flex;
 `;
@@ -21,19 +21,31 @@ align-items: center;
 
 export const Card = styled.div`
 width:300px;
-height: 200px;
+height: 500px;
 background-color: white;
+@media (min-width: 768px) {
+width:600px;
+}
 `;
 export const P = styled.p`
 color:red;
+display: flex;
+justify-content: center;
+align-items: center;
 `;
 
 export const Img = styled.img`
 width:300px;
-height: 120px;
+height: 400px;
+@media (min-width: 768px) {
+width:600px;
+}
 `;
 
 export const A = styled.a`
+display: flex;
+justify-content: center;
+align-items: center;
 `;
 export const ButtonContainer = styled.div`
 width:300px;

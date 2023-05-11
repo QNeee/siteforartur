@@ -3,8 +3,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 background-color: #e9e9e9;
-  max-width: 100vw;  // максимальна ширина для вьюпорту 320
-  margin: 0 auto;    // вирівнювання по центру
+  max-width: 100vw; 
+  height: 100vh;
+  margin: 0 auto;    
 `;
 
 export const LinkItem = styled(Link)`

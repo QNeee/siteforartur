@@ -87,12 +87,12 @@ export const FooterApp = () => {
                 setHide(false);
                 window.scrollTo({ top: 0, behavior: 'auto' });
             }
-            clearInterval(intervalId);
             setPrevScrollPos(currentScrollPos);
         };
         window.addEventListener('scroll', handleScroll);
 
         return () => {
+            clearInterval(intervalId);
             window.removeEventListener('scroll', handleScroll);
         };
 
@@ -106,8 +106,8 @@ export const FooterApp = () => {
         clearInterval(intervalId);
         setChange(prev => prev - 1)
     }
-    return <>{hide ? <Footer>
-        <CardContainer>
+    return <><Footer>
+        {hide ? <CardContainer>
             <Card key={data[change].id}>
                 <P>{data[change].name}</P>
                 <Img src={data[change].preview} />
@@ -117,6 +117,6 @@ export const FooterApp = () => {
                 {change < data.length - 1 && <Button onClick={onClickNext} >Next</Button>}
                 {change !== 0 && <Button onClick={onClickPrev} >Prev</Button>}
             </ButtonContainer>
-        </CardContainer>
-    </Footer> : null}</>
+        </CardContainer> : null}
+    </Footer></>
 }
