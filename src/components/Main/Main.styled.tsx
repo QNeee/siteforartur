@@ -7,6 +7,7 @@ import styled from "styled-components";
 export const Main = styled.main`
 position: relative;
 height: 100vh;
+margin-top:-12px;
  @media screen and (min-width: 1280px) {
     padding-left:80px;
 display: flex;
@@ -60,9 +61,10 @@ font-size: 25px;
 `;
 export const ImageContainer = styled.div`
 width:320;
-display: flex;
+margin-top:50px;
+/* display: flex;
 justify-content: center;
-align-items: center;
+align-items: center; */
 @media screen and (min-width: 768px) {
     margin-top:100px;
     max-width: 768px;  
@@ -85,15 +87,12 @@ export const H2Second = styled.h2`
 `;
 export const Container = styled.div`
 padding-left:20px;
-margin-top:50px;
 @media screen and (min-width: 768px) {
-    margin-top:100px;
     max-width: 768px;  
 padding-left:40px;
   }
 
   @media screen and (min-width: 1280px) {
-       margin-top:100px;
     max-width: 1280px;  
 padding-left:40px;
   }

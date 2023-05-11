@@ -7,6 +7,9 @@ export const Footer = styled.footer`
 height: 100vh;
 background-color: black;
 display: flex;
+@media screen and (min-width: 1280px){
+  margin-top:15px;
+}
 `;
 export const CardContainer = styled.div`
 margin-top:auto;
